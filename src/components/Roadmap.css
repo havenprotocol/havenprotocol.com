@@ -1,0 +1,23 @@
+.vertical-timeline::before {
+  background: #ccc;
+}
+
+.roadmap {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1170px) {
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+    left: 144%;
+  }
+
+  .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content
+  .vertical-timeline-element-date, .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+    right: 144%;
+  }
+}
+
+.vertical-timeline-element-content p {
+  font-weight: 400;
+}

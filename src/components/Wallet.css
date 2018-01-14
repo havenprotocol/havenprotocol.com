@@ -1,0 +1,25 @@
+
+.wallet {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wallet .download i {
+  font-size: 24px;
+  padding-bottom: 4px;
+}
+
+.wallet .download {
+  font-size: 18px;
+  padding: 15px 40px;
+  background-color: #0F232B;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.wallet .download:hover {
+  background-color: #204a5a;
+}

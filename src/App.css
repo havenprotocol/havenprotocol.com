@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: #0F232B;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: 200px;
+}
+
+nav a {
+  margin-left: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+p {
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+p, h2, h3, h4 {
+  margin: 0;
+}
+
+.app {
+  position: relative;
+}
+
+.section-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 40px 0 80px;
+  z-index: 10;
+  position: relative;
+  text-align: center;
+}
+
+.header .logo img {
+  width: 200px;
+}
+
+.header .title {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+section {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+section .box {
+  width: 28%;
+  font-size: 14px;
+  border: solid 3px #f1f1f1;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+section .long {
+  margin-top: 20px;
+  width: 100%;
+}
+section .box .heading {
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+section .box .heading img {
+  width: 30px;
+}
+
+section .long .heading {
+  display: flex;
+  align-items: center;
+}
+
+section .long .heading .soon {
+  background-color: #ccc;
+  border-radius: 4px;
+  font-size: 10px;
+  margin-left: 10px;
+  padding: 6px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: .2s all;
+}
+
+section .long .heading .soon:hover {
+  opacity: 1;
+  transition: .2s all;
+}
+
+
+/*  ROADMAP  */
+.roadmap .item {
+  display: flex;
+}
+.roadmap .line {
+  border-left: solid;
+  height: 200px;
+}
+
