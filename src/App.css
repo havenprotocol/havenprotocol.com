@@ -24,6 +24,11 @@ nav a {
   margin-left: 20px;
   padding: 10px;
   cursor: pointer;
+  margin-top: 10px;
+}
+
+nav a:hover{
+  color: #666;
 }
 
 p {
@@ -45,19 +50,24 @@ p, h2, h3, h4 {
 }
 
 .header {
-  padding: 40px 0 80px;
+  padding: 40px 0 40px;
   z-index: 10;
   position: relative;
   text-align: center;
 }
 
 .header .logo img {
-  width: 200px;
+  width: 170px;
 }
 
 .header .title {
   font-size: 50px;
   font-weight: bold;
+}
+
+.whitepaper {
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 section {
@@ -69,7 +79,6 @@ section {
 
 section .box {
   width: 28%;
-  font-size: 14px;
   border: solid 3px #f1f1f1;
   border-radius: 4px;
   background-color: #fff;
@@ -80,21 +89,19 @@ section .long {
   margin-top: 20px;
   width: 100%;
 }
-section .box .heading {
-  font-size: 18px;
-  font-weight: 500;
+section .box h4 {
   padding-bottom: 10px;
 }
-section .box .heading img {
+section .box h4 img {
   width: 30px;
 }
 
-section .long .heading {
+section .long h4 {
   display: flex;
   align-items: center;
 }
 
-section .long .heading .soon {
+section .long h4 .soon {
   background-color: #ccc;
   border-radius: 4px;
   font-size: 10px;

@@ -9,19 +9,19 @@ class Wallet extends Component {
         <div className="item">
           <div className="download">
             <i className="fa fa-windows"></i>
-            <div>Download Windows Wallet</div>
+            <div className="disabled">Download Windows Wallet</div>
           </div>
         </div>
         <div className="item">
           <div className="download">
             <i className="fa fa-apple"></i>
-            <div>Download OSX Wallet</div>
+            <div className="disabled">Download OSX Wallet</div>
           </div>
         </div>
         <div className="item">
           <div className="download">
             <i className="fa fa-linux"></i>
-            <div>Download Linux Wallet</div>
+            <div className="disabled">Download Linux Wallet</div>
           </div>
         </div>
       </div>

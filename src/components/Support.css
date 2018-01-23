@@ -1,0 +1,21 @@
+.support {
+  width: 100%;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+}
+
+.social .item i {
+  font-size: 60px;
+  color: #ccc;
+  cursor: pointer;
+  transition: .1s all;
+}
+
+.social .item i:hover {
+  color: #000;
+  transition: .1s all;
+}

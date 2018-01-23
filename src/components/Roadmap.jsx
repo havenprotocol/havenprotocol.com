@@ -12,18 +12,29 @@ class Roadmap extends Component {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Q1 2017"
+            date="Q1 2018"
             iconStyle={{ background: '#0F232B', color: '#fff' }}
             icon={<CheckCircleIcon />}
           >
-          <h4 className="vertical-timeline-element-title">Protocol Design + Implementation</h4>
+          <h4 className="vertical-timeline-element-title">Protocol Design + Testing</h4>
           <p>
-            Haven Protocol is tested and running in base form with ring signatures and stealth addresses.
+            Haven Protocol is tested and running in base form on a test network.
           </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Q2 2018"
+            iconStyle={{ background: '#ccc', color: '#fff' }}
+            icon={<CheckCircleIcon />}
+          >
+          <h4 className="vertical-timeline-element-title">Live Network Release</h4>
+          <p>
+            A release date will be announced for the live network release and the genesis block will be mined. No premine or ICO.
+          </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Q3 2018"
             iconStyle={{ background: '#ccc', color: '#fff' }}
             icon={<CheckCircleIcon />}
           >
@@ -35,13 +46,13 @@ class Roadmap extends Component {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Q3 2018"
+            date="Q4 2018"
             iconStyle={{ background: '#ccc', color: '#fff' }}
             icon={<CheckCircleIcon />}
           >
-          <h4 className="vertical-timeline-element-title">RING CT + Tor Integration</h4>
+          <h4 className="vertical-timeline-element-title">Tor Integration</h4>
           <p>
-            RingCT and Tor network integration to further anonymize the network
+            Tor network integration to further anonymize the network
           </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
