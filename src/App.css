@@ -10,22 +10,22 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-nav {
+/* nav {
   position: relative;
-  width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   font-weight: 200px;
-}
+} */
 
-nav a {
+/* nav a {
   margin-left: 20px;
   padding: 10px;
   cursor: pointer;
   margin-top: 10px;
-}
+} */
+
 
 nav a:hover{
   color: #666;
@@ -42,10 +42,11 @@ p, h2, h3, h4 {
 
 .app {
   position: relative;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .section-container {
-  width: 1200px;
   margin: 0 auto;
 }
 
@@ -125,5 +126,48 @@ section .long .heading .soon:hover {
 .roadmap .line {
   border-left: solid;
   height: 200px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .app {
+    width: 1000px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .app {
+    width: 800px;
+  }
+  section .box {
+    width: 32%;
+  }
+  section .long {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .app {
+    width: 100%;
+  }
+
+  .wallet {
+    flex-direction: column;
+  }
+
+  .wallet .item {
+    margin-bottom: 10px;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  section .box {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 

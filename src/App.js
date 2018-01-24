@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import './Background.css'
+import Nav from './Nav'
 import logo from './haven_logo.png'
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Roadmap from './components/Roadmap'
@@ -21,14 +21,8 @@ class App extends Component {
 
   render() {
     return (
-      <div className="app">
+      <div className="app" id="page-wrap">
         <div id="particles-js"></div>
-        <nav>
-          <Link to="features" smooth={true}>Features</Link>
-          <Link to="roadmap" smooth={true}>Roadmap</Link>
-          <Link to="wallets" smooth={true}>Wallets</Link>
-          <Link to="mining" smooth={true}>Mining</Link>
-        </nav>
         <header className="header">
           <div className="logo"><img src={logo} /></div>
           <div className="title">Haven</div>
