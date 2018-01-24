@@ -8,6 +8,9 @@ import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
 import grey from 'material-ui/colors/grey';
 import green from 'material-ui/colors/green';
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-000000-01');
+ReactGA.pageview(window.location.pathname);
 
 const theme = createMuiTheme({
   palette: {

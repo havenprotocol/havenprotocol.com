@@ -9,6 +9,7 @@
     "react": "^16.2.0",
     "react-burger-menu": "^2.2.3",
     "react-dom": "^16.2.0",
+    "react-ga": "^2.4.1",
     "react-scripts": "1.0.17",
     "react-scroll": "^1.7.5",
     "react-vertical-timeline-component": "^2.0.3"
