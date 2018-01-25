@@ -8,13 +8,13 @@ class Support extends Component {
       <div className="support">
         <div className="social">
           <div className="item">
-            <i className="fa fa-reddit" aria-hidden="true"></i>
+            <a href="https://www.reddit.com/r/havenprotocol/"><i className="fa fa-reddit" aria-hidden="true"></i></a>
           </div>
           <div className="item">
             <i className="fa fa-twitter" aria-hidden="true"></i>
           </div>
           <div className="item">
-            <i className="fa fa-github" aria-hidden="true"></i>
+            <a href="https://github.com/havenprotocol"><i className="fa fa-github" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>

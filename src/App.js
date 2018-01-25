@@ -36,7 +36,7 @@ class App extends Component {
           <section >
             <div className="box">
               <h4>Hidden</h4>
-              <p>Haven uses ring signatures, ring confidential transactions and stealth addresses meaning payments cannot be linked back to any user.</p>
+              <p>Haven uses ring signatures, ring confidential transactions and stealth addresses meaning payments cannot be tracked or linked back to any user.</p>
             </div>
             <div className="box">
               <h4>Fast</h4>
@@ -53,8 +53,8 @@ class App extends Component {
           <section>
             <div className="box long">
               <h4 style={{textAlign: "center"}}>Offshore Holding <Link to="roadmap" smooth={true} className="soon">coming soon</Link></h4>
-              <p>At the core of the Haven Protocol is the Offshore Holding smart contract that allows cold storage of coins in terms of USD
-              value to avoid crypto volatility and keep money out of the traditional banking system without risk of loss.</p>
+              <p>At the core of the Haven Protocol is the Offshore Holding smart contract that allows storage in terms of USD
+              value to avoid crypto volatility and keep money out of the traditional banking system without risk of price fluctuation.</p>
             </div>
           </section>
           <div style={{padding: "60px 20px 0px"}} name="roadmap">
