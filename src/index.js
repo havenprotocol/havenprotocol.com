@@ -9,7 +9,7 @@ import grey from 'material-ui/colors/grey';
 import green from 'material-ui/colors/green';
 
 import ReactGA from 'react-ga';
-ReactGA.initialize('UA-000000-01');
+ReactGA.initialize('UA-113076210-1');
 ReactGA.pageview(window.location.pathname);
 
 const theme = createMuiTheme({
