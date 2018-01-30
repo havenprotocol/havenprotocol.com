@@ -26,7 +26,7 @@ class App extends Component {
         <header className="header">
           <div className="logo"><img src={logo} /></div>
           <div className="title">Haven</div>
-          <div style={{fontWeight: "500"}}>Untraceable payments meets offshore banking.</div>
+          <div className="subtitle" style={{fontWeight: "800"}}>Untraceable payments meets offshore banking.</div>
         </header>
 
         <div className="whitepaper">

@@ -34,8 +34,8 @@ nav a:hover{
 p {
   line-height: 1.4;
   font-size: 16px;
+    font-family: 'Inconsolata', sans-serif;
 }
-
 p, h2, h3, h4 {
   margin: 0;
 }
@@ -62,8 +62,14 @@ p, h2, h3, h4 {
 }
 
 .header .title {
-  font-size: 50px;
+  font-size: 54px;
   font-weight: bold;
+
+}
+
+.header .subtitle {
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 18px;
 }
 
 .whitepaper {
@@ -85,6 +91,7 @@ section .box {
   background-color: #fff;
   padding: 20px;
 }
+
 
 section .long {
   margin-top: 20px;
