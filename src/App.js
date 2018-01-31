@@ -39,8 +39,8 @@ class App extends Component {
               <p>Haven uses ring signatures, ring confidential transactions and stealth addresses meaning payments cannot be tracked or linked back to any user.</p>
             </div>
             <div className="box">
-              <h4>Fast</h4>
-              <p>Transaction speeds are lightning fast compared to existing coins. Average payment confirmation is under 5 seconds.</p>
+              <h4>Untraceable</h4>
+              <p>Wallet addresses and transaction amounts are completely obfuscated on the Haven blockchain making all activity invisible.</p>
             </div>
             <div className="box">
               <h4>Decentralized</h4>
