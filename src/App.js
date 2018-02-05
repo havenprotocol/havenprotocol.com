@@ -1,38 +1,36 @@
 import React, { Component } from 'react';
 import './App.css';
 import Nav from './Nav'
-import logo from './haven_logo.png'
+import logo from './haven_icon.png'
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Roadmap from './components/Roadmap'
 import Wallet from './components/Wallet'
 import Mining from './components/Mining'
 import Support from './components/Support'
 import whitepaper from './haven_whitepaper.pdf'
-require('particles.js')
 
 
 class App extends Component {
 
-  componentDidMount() {
-    // window.particlesJS.load('particles-js', 'particles.json', function() {
-    //   console.log('callback - particles.js config loaded');
-    // });
-  }
-
   render() {
     return (
       <div className="app" id="page-wrap">
-        <div id="particles-js"></div>
         <header className="header">
-          <div className="logo"><img src={logo} /></div>
-          <div className="title">Haven</div>
-          <div className="subtitle" style={{fontWeight: "800"}}>Untraceable payments meets offshore banking.</div>
+          <div className="container">
+            <div className="logo"><img src={logo} /></div>
+            <div className="title">Haven</div>
+            <div className="subtitle">Untraceable payments meets offshore banking.</div>
+
+            <div className="links">
+              <a href={whitepaper} target="_blank">Read the white paper</a>
+            </div>
+          </div>
         </header>
 
-        <div className="whitepaper">
-          <a href={whitepaper} target="_blank">Read the white paper</a>
+        <div className="whitepaper container">
+
         </div>
-        <div className="section-container">
+        <div className="section-container container">
           <section >
             <div className="box">
               <h4>Hidden</h4>

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './Nav.css'
 import { bubble as Menu } from 'react-burger-menu'
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import logo from './haven_logo.png'
 
 class Nav extends Component {
 

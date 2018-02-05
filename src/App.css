@@ -7,7 +7,7 @@ html {
 
 body {
   background-color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: Proximanova, sans-serif;
 }
 
 /* nav {
@@ -42,34 +42,47 @@ p, h2, h3, h4 {
 
 .app {
   position: relative;
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .section-container {
   margin: 0 auto;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .header {
-  padding: 40px 0 40px;
+  padding: 20px 0 40px;
   z-index: 10;
   position: relative;
   text-align: center;
+  background-color: #0F232B;
+  color: #fff;
 }
 
 .header .logo img {
-  width: 170px;
+  width: 200px;
 }
 
 .header .title {
   font-size: 54px;
   font-weight: bold;
-
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 
 .header .subtitle {
-  font-family: 'Inconsolata', sans-serif;
+  font-weight: 500;
   font-size: 18px;
+}
+
+.header .links {
+  padding: 40px 0 20px;
+}
+.header .links a {
+  color: #fff;
 }
 
 .whitepaper {
@@ -176,5 +189,39 @@ section .long .heading .soon:hover {
     width: 100%;
     margin-bottom: 10px;
   }
+}
+
+
+
+
+@font-face {
+  font-family: 'Proximanova';
+  src: url('/fonts/ProximaNova-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proximanova';
+  src: url('/fonts/ProximaNova-Black.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proximanova';
+  src: url('/fonts/ProximaNova-Extrabold.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proximanova';
+  src: url('/fonts/ProximaNova-Bold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proximanova';
+  src: url('/fonts/ProximaNova-Semibold.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
 }
 
