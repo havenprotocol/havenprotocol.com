@@ -151,13 +151,13 @@ section .long .heading .soon:hover {
 
 
 @media only screen and (max-width: 1200px) {
-  .app {
+  .container {
     width: 1000px;
   }
 }
 
 @media only screen and (max-width: 1000px) {
-  .app {
+  .container {
     width: 800px;
   }
   section .box {
@@ -169,8 +169,12 @@ section .long .heading .soon:hover {
 }
 
 @media only screen and (max-width: 800px) {
-  .app {
+  .container {
     width: 100%;
+  }
+
+  .header .subtitle {
+    font-size: 16px;
   }
 
   .wallet {
