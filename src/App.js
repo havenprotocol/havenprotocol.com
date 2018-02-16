@@ -65,7 +65,7 @@ class App extends Component {
           <div style={{padding: "60px 20px 20px"}} name="wallets">
             <h2 style={{marginBottom: "10px"}}>Wallet Downloads</h2>
             <p>Wallets give you secure storage and the ability to send and receive payments of Haven.</p>
-            <p>All wallet downloads <b>coming soon</b>.</p>
+            <p>You can create a wallet by downloading below or by using the easy web interface at <a href="https://havenwallet.com" target="_blank">havenwallet.com</a></p>
           </div>
           <section>
             <Wallet />

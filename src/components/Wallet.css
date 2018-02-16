@@ -1,16 +1,25 @@
 
 .wallet {
-  display: flex;
-  justify-content: space-between;
   width: 100%;
 }
 
-.wallet .download i {
-  font-size: 24px;
-  padding-bottom: 4px;
+.wallet-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.wallet .download {
+.wallet-row a {
+  text-decoration: none;
+}
+
+.wallet-row .download i {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.wallet-row .download {
   font-size: 18px;
   padding: 15px 40px;
   background-color: #0F232B;
@@ -18,9 +27,13 @@
   border-radius: 4px;
   text-align: center;
   cursor: pointer;
-  opacity: 0.4;
+  letter-spacing: .7px;
 }
 
-.wallet .download:hover {
+.wallet-row .download:hover {
   background-color: #204a5a;
+}
+
+.wallet-row .disabled {
+ opacity: 0.4;
 }
