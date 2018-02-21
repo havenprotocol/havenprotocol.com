@@ -22,13 +22,13 @@ class Wallet extends Component {
             </div>
           </a>
           <a href="https://github.com/havenprotocol/haven/releases/download/v1.0.0/haven-cli-mac-osx-1.0.0.zip" className="item">
-            <div className="download disabled">
+            <div className="download">
               <i className="fa fa-apple"></i>
               <div>Download OSX CLI</div>
             </div>
           </a>
           <a href="https://github.com/havenprotocol/haven/releases/download/v1.0.0/haven-cli-linux-x64-1.0.0.zip" className="item">
-            <div className="download disabled">
+            <div className="download">
               <i className="fa fa-linux"></i>
               <div>Download Linux CLI</div>
             </div>
