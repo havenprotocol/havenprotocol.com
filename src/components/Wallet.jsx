@@ -9,31 +9,30 @@ class Wallet extends Component {
         <div className="wallet-row">
           <a href="https://havenwallet.com" target="_blank" className="item">
             <div className="download">
-              <i className="fa fa-chrome"></i> + <i className="fa fa-firefox"></i> + <i className="fa fa-safari"></i>
+              <i className="fa fa-wifi"></i>
               <div>Use Online Wallet</div>
             </div>
           </a>
         </div>
-        <p>All wallet downloads <b>coming soon</b>.</p>
         <div className="wallet-row">
-          <div className="item">
-            <div className="download disabled">
+          <a href="https://github.com/havenprotocol/haven/releases/download/v1.0.0/haven-gui-windows-1.0.0.zip" className="item">
+            <div className="download">
               <i className="fa fa-windows"></i>
-              <div>Download Windows Wallet</div>
+              <div>Download Windows GUI + CLI</div>
             </div>
-          </div>
-          <div className="item">
+          </a>
+          <a href="https://github.com/havenprotocol/haven/releases/download/v1.0.0/haven-cli-mac-osx-1.0.0.zip" className="item">
             <div className="download disabled">
               <i className="fa fa-apple"></i>
-              <div>Download OSX Wallet</div>
+              <div>Download OSX CLI</div>
             </div>
-          </div>
-          <div className="item">
+          </a>
+          <a href="https://github.com/havenprotocol/haven/releases/download/v1.0.0/haven-cli-linux-x64-1.0.0.zip" className="item">
             <div className="download disabled">
               <i className="fa fa-linux"></i>
-              <div>Download Linux Wallet</div>
+              <div>Download Linux CLI</div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     );
