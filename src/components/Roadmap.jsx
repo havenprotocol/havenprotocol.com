@@ -16,9 +16,9 @@ class Roadmap extends Component {
             iconStyle={{ background: '#0F232B', color: '#fff' }}
             icon={<CheckCircleIcon />}
           >
-          <h4 className="vertical-timeline-element-title">Protocol Design + Testing</h4>
+          <h4 className="vertical-timeline-element-title">Live Network Release</h4>
           <p>
-            Haven Protocol is tested and running in base form on a test network.
+            Haven Protocol network is launched and available to public.
           </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -27,9 +27,9 @@ class Roadmap extends Component {
             iconStyle={{ background: '#ccc', color: '#fff' }}
             icon={<CheckCircleIcon />}
           >
-          <h4 className="vertical-timeline-element-title">Live Network Release</h4>
+          <h4 className="vertical-timeline-element-title">IOS + Android Wallets</h4>
           <p>
-            A release date will be announced for the live network release and the genesis block will be mined. No premine or ICO.
+            IOS and Android mobile wallets available for download with a focus on usability for first time users of cryptocurrency.
           </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -38,21 +38,9 @@ class Roadmap extends Component {
             iconStyle={{ background: '#ccc', color: '#fff' }}
             icon={<CheckCircleIcon />}
           >
-          <h4 className="vertical-timeline-element-title">Haven Offshore Value Smart Contract</h4>
-          <p>
-            Implementation of the Haven Protocol Offshore Holding smart contract that allows users to store their
-            coins in terms of USD value to avoid volatility and keep money out of the traditional banking system without risk of loss.
-          </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="Q4 2018"
-            iconStyle={{ background: '#ccc', color: '#fff' }}
-            icon={<CheckCircleIcon />}
-          >
           <h4 className="vertical-timeline-element-title">Tor Integration</h4>
           <p>
-            Tor network integration to further anonymize the network
+            Tor network integration into all wallets to further anonymize the network
           </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -61,10 +49,10 @@ class Roadmap extends Component {
             iconStyle={{ background: '#ccc', color: '#fff' }}
             icon={<CheckCircleIcon />}
           >
-          <h4 className="vertical-timeline-element-title">IOS + Android Tor Wallets</h4>
+          <h4 className="vertical-timeline-element-title">Haven Offshore Storage Smart Contract</h4>
           <p>
-            Private Tor IOS and Android mobile wallets to facilitate easier use as a daily currency
-            once the network has reached maturity.
+            Implementation of the Haven Protocol Offshore Storage smart contract that allows users to store their
+            coins in terms of USD value to avoid volatility and keep money out of the traditional banking system without risk of loss.
           </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
