@@ -6,7 +6,10 @@ class Mining extends Component {
   render() {
     return (
       <div className="mining">
-        <p>Follow the instruction over at <a href="http://pool.havenprotocol.com/#getting_started">pool.havenprotocol.com</a> to get started mining.</p>
+        <p>Choose from one of the Haven mining pools below:</p>
+        <br />
+        <a className="pool-btn" target="_blank" href="http://pool.mineallcrypto.com/pool/?symbol=XHV">mineAllCrypto</a>
+        <a className="pool-btn" target="_blank" href="https://xhv.luckypool.io/">luckypool</a>
       </div>
     );
   }

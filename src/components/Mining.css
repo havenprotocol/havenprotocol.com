@@ -4,3 +4,20 @@ pre {
   border-radius: 4px;
   display: inline-block;
 }
+
+.pool-btn {
+    display: block;
+    padding: 12px;
+    background-color: #0f242c;
+    width: 150px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+
+.pool-btn:hover {
+  background-color: #204a5a;
+}

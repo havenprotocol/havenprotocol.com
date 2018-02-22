@@ -8,14 +8,14 @@
   padding: 40px 0;
 }
 
-.social .item i {
+.social .item svg {
   font-size: 60px;
   color: #ccc;
   cursor: pointer;
   transition: .1s all;
 }
 
-.social .item i:hover {
+.social .item svg:hover {
   color: #000;
   transition: .1s all;
 }

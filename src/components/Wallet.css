@@ -14,8 +14,8 @@
   text-decoration: none;
 }
 
-.wallet-row .download i {
-  font-size: 24px;
+.wallet-row .download svg {
+  font-size: 34px;
   padding-bottom: 10px;
 }
 

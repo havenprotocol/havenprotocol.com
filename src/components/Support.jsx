@@ -8,13 +8,16 @@ class Support extends Component {
       <div className="support">
         <div className="social">
           <div className="item">
-            <a href="https://www.reddit.com/r/havenprotocol/" target="_blank"><i className="fa fa-reddit" aria-hidden="true"></i></a>
+            <a href="https://www.reddit.com/r/havenprotocol/" target="_blank"><i className="fab fa-reddit" aria-hidden="true"></i></a>
           </div>
           <div className="item">
-            <a href="https://twitter.com/HavenProtocol" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://discord.gg/vWQ2GZX" target="_blank"><i className="fab fa-discord" aria-hidden="true"></i></a>
           </div>
           <div className="item">
-            <a href="https://github.com/havenprotocol" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/HavenProtocol" target="_blank"><i className="fab fa-twitter" aria-hidden="true"></i></a>
+          </div>
+          <div className="item">
+            <a href="https://github.com/havenprotocol" target="_blank"><i className="fab fa-github" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
