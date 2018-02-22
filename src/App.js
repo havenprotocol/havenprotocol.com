@@ -7,6 +7,7 @@ import Roadmap from './components/Roadmap'
 import Wallet from './components/Wallet'
 import Mining from './components/Mining'
 import Support from './components/Support'
+import whitepaper from './haven_protocol_whitepaper.pdf'
 
 
 class App extends Component {
@@ -20,6 +21,9 @@ class App extends Component {
             <div className="title">Haven</div>
             <div className="subtitle">Untraceable payments meets offshore banking.</div>
 
+            <div className="links">
+              <a href={whitepaper} target="_blank">Read the white paper</a>
+            </div>
           </div>
         </header>
 
