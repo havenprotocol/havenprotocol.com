@@ -71,7 +71,7 @@ class App extends Component {
             <Wallet />
           </section>
 
-          <div style={{padding: "60px 20px 20px"}} name="mining">
+          <div style={{padding: "40px 20px 20px"}} name="mining">
             <h2>Mining</h2>
           </div>
           <section>

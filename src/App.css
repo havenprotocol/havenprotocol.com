@@ -177,14 +177,6 @@ section .long .heading .soon:hover {
     font-size: 16px;
   }
 
-  .wallet {
-    flex-direction: column;
-  }
-
-  .wallet .item {
-    margin-bottom: 10px;
-  }
-
   section {
     flex-direction: column;
   }

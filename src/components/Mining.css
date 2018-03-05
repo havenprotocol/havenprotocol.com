@@ -18,3 +18,13 @@ pre {
 .pool-btn:hover {
   color: #222;
 }
+
+.mining a {
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 4px;
+}
+
+.mining a:hover {
+  text-decoration: underline;
+}

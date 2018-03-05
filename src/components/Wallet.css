@@ -7,27 +7,30 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.wallet-row .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
 }
 
 .wallet-row a {
   text-decoration: none;
+  color: inherit;
+  padding-bottom: 4px;
 }
 
-.wallet-row .download svg {
-  font-size: 34px;
+.wallet-row a:hover {
+  text-decoration: underline;
+}
+
+.wallet-row svg {
+  font-size: 60px;
   padding-bottom: 10px;
-}
-
-.wallet-row .download {
-  font-size: 18px;
-  padding: 15px 40px;
-  background-color: #0F232B;
-  color: #fff;
-  border-radius: 4px;
-  text-align: center;
-  cursor: pointer;
-  letter-spacing: .7px;
+  color: #0F232B;
 }
 
 .wallet-row .download:hover {
@@ -36,4 +39,11 @@
 
 .wallet-row .disabled {
  opacity: 0.4;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .wallet-row {
+    flex-direction: column;
+  }
 }
