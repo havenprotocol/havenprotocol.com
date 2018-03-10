@@ -38,7 +38,7 @@ class Roadmap extends Component {
             iconStyle={{ background: '#ccc', color: '#fff' }}
             icon={<CheckCircleIcon />}
           >
-          <h4 className="vertical-timeline-element-title">Tor Integration</h4>
+          <h4 className="vertical-timeline-element-title">I2P Integration</h4>
           <p>
             I2P integration to further anonymize the network by removing IP addresses associated with transactions.
           </p>
