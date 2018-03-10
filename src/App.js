@@ -50,8 +50,8 @@ class App extends Component {
           </div> */}
           <section>
             <div className="box long">
-              <h4 style={{textAlign: "center"}}>Offshore Holding <Link to="roadmap" smooth={true} className="soon">coming soon</Link></h4>
-              <p>At the core of the Haven Protocol is the Offshore Holding smart contract that allows storage in terms of USD
+              <h4 style={{textAlign: "center"}}>Offshore Storage <Link to="roadmap" smooth={true} className="soon">coming soon</Link></h4>
+              <p>At the core of the Haven Protocol is the Offshore Storage smart contract that allows storage in terms of USD
               value to avoid crypto volatility and keep money out of the traditional banking system without risk of price fluctuation.</p>
             </div>
           </section>

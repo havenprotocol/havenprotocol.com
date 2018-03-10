@@ -40,7 +40,7 @@ class Roadmap extends Component {
           >
           <h4 className="vertical-timeline-element-title">Tor Integration</h4>
           <p>
-            Tor network integration into all wallets to further anonymize the network
+            I2P integration to further anonymize the network by removing IP addresses associated with transactions.
           </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
