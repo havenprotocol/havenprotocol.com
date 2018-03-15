@@ -33,8 +33,8 @@ class App extends Component {
           </div>
         </header>
         <div className="section-container container">
-          <section >
-            <div className="introduction">
+          <section>
+            <div className="introduction" name="introduction">
               <div className="content-text">
                 <p className="heading">What is Haven Protocol</p>
 
@@ -53,9 +53,9 @@ class App extends Component {
 
                 <p>The key use cases for offshore contracts are:</p>
 
-                <p>Point of sales systems where goods can be bought with Haven and stores can immediately lock the fiat value in
-                to protect from price fluctuations. This has the added benefit of keeping the shopkeepers business and income completely
-                hidden on the blockchain as his wallet address nor amounts are revealed.</p>
+                <p>Point of sales/payment gateway systems where goods can be bought with Haven and stores can immediately lock the fiat value in
+                to protect from price fluctuations. This has the added benefit of keeping the stores business and income completely
+                hidden on the blockchain as their wallet address nor amounts are revealed.</p>
 
                 <p>Storing large amount of money outside of the traditional banking system. Privacy focused cryptos are perfect for this but
                 without a reliable way to maintain value through fluctuations the process of holding could be costly. Sending Haven offshore
@@ -68,46 +68,21 @@ class App extends Component {
                 <p>The Haven Protocol is decentralized and open source meaning no central control over the network. Nothing is censored.</p>
 
               </div>
-
               <div className="content-links">
                 <Social />
               </div>
             </div>
           </section>
-            {/* <div className="box">
-              <h4>Hidden</h4>
-              <p>Haven uses ring signatures, ring confidential transactions and stealth addresses meaning payments cannot be tracked or linked back to any user.</p>
-            </div>
-            <div className="box">
-              <h4>Untraceable</h4>
-              <p>Wallet addresses and transaction amounts are completely obfuscated on the Haven blockchain making all activity invisible.</p>
-            </div>
-            <div className="box">
-              <h4>Decentralized</h4>
-              <p>The Haven Protocol is decentralized and open source meaning no central control over the network. Nothing is censored.</p>
-            </div>
-          </section>
-
-          <section>
-            <div className="box long">
-              <h4 style={{textAlign: "center"}}>Offshore Storage <Link to="roadmap" smooth={true} className="soon">coming soon</Link></h4>
-              <p>At the core of the Haven Protocol is the Offshore Storage smart contract that allows storage in terms of USD
-              value to avoid crypto volatility and keep money out of the traditional banking system without risk of price fluctuation.</p>
-            </div>
-          </section> */}
-          <section>
+          <section name="downloads">
             <Wallet />
           </section>
-          {/* <div style={{padding: "40px 20px 20px"}}>
-            <p>Native Smart Contracts built into the Haven Protocol</p>
-          </div> */}
-          <div style={{color: "#fff", padding: "60px 20px 0px"}} name="roadmap">
+          <div style={{color: "#fff", padding: "60px 20px 0px"}}>
             <p className="heading">Haven Protocol Roadmap</p>
           </div>
-          <section>
+          <section name="roadmap">
             <Roadmap />
           </section>
-          <section>
+          <section name="links">
             <Links />
           </section>
         </div>
