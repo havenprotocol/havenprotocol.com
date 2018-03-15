@@ -55,7 +55,7 @@ class App extends Component {
 
                 <p>Point of sales/payment gateway systems where goods can be bought with Haven and stores can immediately lock the fiat value in
                 to protect from price fluctuations. This has the added benefit of keeping the stores business and income completely
-                hidden on the blockchain as their wallet address nor amounts are revealed.</p>
+                hidden on the blockchain as neither their wallet address or amounts are revealed.</p>
 
                 <p>Storing large amount of money outside of the traditional banking system. Privacy focused cryptos are perfect for this but
                 without a reliable way to maintain value through fluctuations the process of holding could be costly. Sending Haven offshore
