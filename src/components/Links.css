@@ -1,0 +1,38 @@
+pre {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.pool-btn:hover {
+  color: #fff;
+}
+
+.links {
+  color: rgba(255,255,255,0.7);
+  padding: 20px 0 100px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.links a {
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .links {
+    flex-direction: column;
+    text-align: center;
+  }
+}

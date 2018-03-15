@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import Nav from './Nav'
-import logo from './haven_icon.png'
+import logo from './haven_icon_only.png'
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Roadmap from './components/Roadmap'
 import Wallet from './components/Wallet'
-import Mining from './components/Mining'
-import Support from './components/Support'
+import Links from './components/Links'
+import Social from './components/Social'
 import whitepaper from './haven_protocol_whitepaper.pdf'
 
 
@@ -16,23 +16,65 @@ class App extends Component {
     return (
       <div className="app" id="page-wrap">
         <header className="header">
+          <canvas id="canvas"></canvas>
           <div className="container">
-            <div className="logo"><img src={logo} /></div>
-            <div className="title">Haven</div>
-            <div className="subtitle">Untraceable payments meets offshore banking.</div>
+            <div className="content">
+              <div className="logo"><img src={logo} /></div>
 
-            <div className="links">
-              <a href={whitepaper} target="_blank">Read the white paper</a>
+              <div>
+                <div className="title">Haven Protocol</div>
+                <div className="subtitle">Untraceable payments meets offshore banking.</div>
+
+                <div className="whitepaper-link">
+                  <a href={whitepaper} target="_blank">Read the white paper</a>
+                </div>
+              </div>
             </div>
           </div>
         </header>
-
-        <div className="whitepaper container">
-
-        </div>
         <div className="section-container container">
           <section >
-            <div className="box">
+            <div className="introduction">
+              <div className="content-text">
+                <p className="heading">What is Haven Protocol</p>
+
+                <p>Haven is an untraceable cryptocurrency with a mix of standard market pricing and stable fiat
+                value storage without an unsustainable peg or asset backing. It achieves this with a built in
+                on-chain smart contract that controls the minting and burning of coins in a network of cryptographically unknown supply
+                to facilitate value for users that choose to send their coins to offshore storage contracts while allowing everyone
+                else to be exposed to the natural price movements of the currency.</p>
+
+
+                <p className="heading">Offshore Storage</p>
+
+                <p>Offshore Storage is Haven's built in smart contract/protocol that powers the stable value storage.
+                In short, sending Haven to offshore storage (burning) records a reference on the blockchain to the current fiat value
+                which can be restored later back into Haven by minting new coins to the tune of the current fiat value.</p>
+
+                <p>The key use cases for offshore contracts are:</p>
+
+                <p>Point of sales systems where goods can be bought with Haven and stores can immediately lock the fiat value in
+                to protect from price fluctuations. This has the added benefit of keeping the shopkeepers business and income completely
+                hidden on the blockchain as his wallet address nor amounts are revealed.</p>
+
+                <p>Storing large amount of money outside of the traditional banking system. Privacy focused cryptos are perfect for this but
+                without a reliable way to maintain value through fluctuations the process of holding could be costly. Sending Haven offshore
+                quite literally, makes money disappear until you want it back at which point the value remains intact.</p>
+
+
+                <p className="heading">Untraceable | Hidden | Decentralized</p>
+                <p>Haven uses ring signatures, ring confidential transactions and stealth addresses meaning payments cannot be tracked or linked back to any user.</p>
+                <p>Wallet addresses and transaction amounts are completely obfuscated on the Haven blockchain making all activity invisible.</p>
+                <p>The Haven Protocol is decentralized and open source meaning no central control over the network. Nothing is censored.</p>
+
+              </div>
+
+              <div className="content-links">
+                <Social />
+              </div>
+            </div>
+          </section>
+            {/* <div className="box">
               <h4>Hidden</h4>
               <p>Haven uses ring signatures, ring confidential transactions and stealth addresses meaning payments cannot be tracked or linked back to any user.</p>
             </div>
@@ -45,44 +87,192 @@ class App extends Component {
               <p>The Haven Protocol is decentralized and open source meaning no central control over the network. Nothing is censored.</p>
             </div>
           </section>
-          {/* <div style={{padding: "40px 20px 20px"}}>
-            <p>Native Smart Contracts built into the Haven Protocol</p>
-          </div> */}
+
           <section>
             <div className="box long">
               <h4 style={{textAlign: "center"}}>Offshore Storage <Link to="roadmap" smooth={true} className="soon">coming soon</Link></h4>
               <p>At the core of the Haven Protocol is the Offshore Storage smart contract that allows storage in terms of USD
               value to avoid crypto volatility and keep money out of the traditional banking system without risk of price fluctuation.</p>
             </div>
+          </section> */}
+          <section>
+            <Wallet />
           </section>
-          <div style={{padding: "60px 20px 0px"}} name="roadmap">
-            <h2>Haven Protocol Roadmap</h2>
+          {/* <div style={{padding: "40px 20px 20px"}}>
+            <p>Native Smart Contracts built into the Haven Protocol</p>
+          </div> */}
+          <div style={{color: "#fff", padding: "60px 20px 0px"}} name="roadmap">
+            <p className="heading">Haven Protocol Roadmap</p>
           </div>
           <section>
             <Roadmap />
           </section>
-
-          <div style={{padding: "60px 20px 20px"}} name="wallets">
-            <h2 style={{marginBottom: "10px"}}>Downloads</h2>
-            <p>Wallets give you secure storage and the ability to send and receive payments of Haven.</p>
-            <p>You can create a wallet by downloading below or by using the easy web interface at <a href="https://havenwallet.com" target="_blank">havenwallet.com</a></p>
-          </div>
           <section>
-            <Wallet />
-          </section>
-
-          <div style={{padding: "40px 20px 20px"}} name="mining">
-            <h2>Mining</h2>
-          </div>
-          <section>
-            <Mining />
-          </section>
-          <section style={{padding: "40px 0"}}>
-            <Support />
+            <Links />
           </section>
         </div>
       </div>
     );
+  }
+
+  componentDidMount() {
+        // Little Canvas things
+    var canvas = document.querySelector("#canvas"),
+        ctx = canvas.getContext('2d');
+
+    // Set Canvas to be window size
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    // Configuration, Play with these
+    var config = {
+      particleNumber: 50,
+      maxParticleSize: 10,
+      maxSpeed: 5,
+      colorVariation: 50
+    };
+
+    // Colors
+    var colorPalette = {
+        bg: {r:12,g:9,b:29},
+        matter: [
+          {r:36,g:18,b:42}, // darkPRPL
+          {r:78,g:36,b:42}, // rockDust
+          {r:252,g:178,b:96}, // solorFlare
+          {r:253,g:238,b:152} // totesASun
+        ]
+    };
+
+    // Some Variables hanging out
+    var particles = [],
+        centerX = canvas.width / 2,
+        centerY = canvas.height / 2,
+        drawBg,
+
+    // Draws the background for the canvas, because space
+    drawBg = function (ctx, color) {
+        ctx.fillStyle = "rgb(" + color.r + "," + color.g + "," + color.b + ")";
+        ctx.fillRect(0,0,canvas.width,canvas.height);
+    };
+
+    // Particle Constructor
+    var Particle = function (x, y) {
+        // X Coordinate
+        this.x = x || Math.round(Math.random() * canvas.width);
+        // Y Coordinate
+        this.y = y || Math.round(Math.random() * canvas.height);
+        // Radius of the space dust
+        this.r = Math.ceil(Math.random() * config.maxParticleSize);
+        // Color of the rock, given some randomness
+        this.c = colorVariation(colorPalette.matter[Math.floor(Math.random() * colorPalette.matter.length)],true );
+        // Speed of which the rock travels
+        this.s = Math.pow(Math.ceil(Math.random() * config.maxSpeed), .7);
+        // Direction the Rock flies
+        this.d = Math.round(Math.random() * 360);
+    };
+
+    // Provides some nice color variation
+    // Accepts an rgba object
+    // returns a modified rgba object or a rgba string if true is passed in for argument 2
+    var colorVariation = function (color, returnString) {
+        var r,g,b,a, variation;
+        r = Math.round(((Math.random() * config.colorVariation) - (config.colorVariation/2)) + color.r);
+        g = Math.round(((Math.random() * config.colorVariation) - (config.colorVariation/2)) + color.g);
+        b = Math.round(((Math.random() * config.colorVariation) - (config.colorVariation/2)) + color.b);
+        a = Math.random() + .5;
+        if (returnString) {
+            return "rgba(" + r + "," + g + "," + b + "," + a + ")";
+        } else {
+            return {r,g,b,a};
+        }
+    };
+
+    // Used to find the rocks next point in space, accounting for speed and direction
+    var updateParticleModel = function (p) {
+        var a = 180 - (p.d + 90); // find the 3rd angle
+        p.d > 0 && p.d < 180 ? p.x += p.s * Math.sin(p.d) / Math.sin(p.s) : p.x -= p.s * Math.sin(p.d) / Math.sin(p.s);
+        p.d > 90 && p.d < 270 ? p.y += p.s * Math.sin(a) / Math.sin(p.s) : p.y -= p.s * Math.sin(a) / Math.sin(p.s);
+        return p;
+    };
+
+    // Just the function that physically draws the particles
+    // Physically? sure why not, physically.
+    var drawParticle = function (x, y, r, c) {
+        ctx.beginPath();
+        ctx.fillStyle = c;
+        ctx.arc(x, y, r, 0, 2*Math.PI, false);
+        ctx.fill();
+        ctx.closePath();
+    };
+
+    // Remove particles that aren't on the canvas
+    var cleanUpArray = function () {
+        particles = particles.filter((p) => {
+          return (p.x > -100 && p.y > -100);
+        });
+    };
+
+
+    var initParticles = function (numParticles, x, y) {
+        for (let i = 0; i < numParticles; i++) {
+            particles.push(new Particle(x, y));
+        }
+        particles.forEach((p) => {
+            drawParticle(p.x, p.y, p.r, p.c);
+        });
+    };
+
+    // That thing
+    window.requestAnimFrame = (function() {
+      return window.requestAnimationFrame ||
+         window.webkitRequestAnimationFrame ||
+         window.mozRequestAnimationFrame ||
+         function(callback) {
+            window.setTimeout(callback, 1000 / 60);
+         };
+    })();
+
+
+    // Our Frame function
+    var frame = function () {
+      // Draw background first
+      drawBg(ctx, colorPalette.bg);
+      // Update Particle models to new position
+      particles.map((p) => {
+        return updateParticleModel(p);
+      });
+      // Draw em'
+      particles.forEach((p) => {
+          drawParticle(p.x, p.y, p.r, p.c);
+      });
+      // Play the same song? Ok!
+      window.requestAnimFrame(frame);
+    };
+
+    // Click listener
+    document.body.addEventListener("click", function (event) {
+        var x = event.clientX,
+            y = event.clientY;
+        cleanUpArray();
+        initParticles(config.particleNumber, x, y);
+    });
+
+    // First Frame
+    frame();
+
+    // First particle explosion
+    initParticles(config.particleNumber);
+
+    let pause = false;
+
+    window.onblur = function() {
+        pause = true;
+    }
+    window.onfocus = function() {
+        pause = false;
+    }
+
+    setInterval(function(){ if (pause == false) initParticles(5); }, 1000);
   }
 }
 

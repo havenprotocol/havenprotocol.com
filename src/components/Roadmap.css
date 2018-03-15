@@ -18,6 +18,19 @@
   }
 }
 
+.vertical-timeline-element-content {
+  background: none;
+  border-radius: 0;
+}
+
+.vertical-timeline-element-title {
+  color: #fff;
+}
+
 .vertical-timeline-element-content p {
   font-weight: 400;
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline-element-content p {
+  color: rgba(255,255,255,0.7);
 }

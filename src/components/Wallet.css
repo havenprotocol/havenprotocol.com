@@ -1,26 +1,33 @@
 
 .wallet {
   width: 100%;
+  padding-top: 100px;
 }
 
 .wallet-row {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding-top: 20px;
+  border: 3px solid rgba(255,255,255, 0.1);
+  padding: 40px;
+  color: #fff;
+  border-radius: 40px;
+  /* box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 1); */
 }
 
 .wallet-row .item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(255,255,255,0.7);
 }
 
 .wallet-row a {
   text-decoration: none;
   color: inherit;
-  padding-bottom: 4px;
+  padding-top: 7px;
 }
 
 .wallet-row a:hover {
@@ -28,9 +35,9 @@
 }
 
 .wallet-row svg {
-  font-size: 60px;
+  font-size: 80px;
   padding-bottom: 10px;
-  color: #0F232B;
+  color: #fff;
 }
 
 .wallet-row .download:hover {
@@ -43,7 +50,13 @@
 
 
 @media only screen and (max-width: 800px) {
+  .wallet {
+    padding-top: 40px;
+  }
   .wallet-row {
     flex-direction: column;
+  }
+  .wallet-row .item {
+    margin-bottom: 30px;
   }
 }
