@@ -1,0 +1,37 @@
+
+.stats {
+  display: flex;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.stats .item {
+  padding: 10px;
+  color: rgba(255,255,255,0.7);
+  font-size: 14px;
+}
+
+/* .stats .item svg {
+  font-size: 70px;
+  color: #fff;
+  cursor: pointer;
+  transition: .1s all;
+}
+
+.social .item svg:hover {
+  color: rgba(255,255,255,0.7);
+  transition: .1s all;
+} */
+
+@media only screen and (max-width: 800px) {
+  .social {
+    flex-direction: row;
+  }
+
+  .social .item svg {
+    font-size: 40px;
+  }
+}

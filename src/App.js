@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './Nav'
 import logo from './haven_icon_only.png'
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import Stats from './components/Stats'
 import Roadmap from './components/Roadmap'
 import Wallet from './components/Wallet'
 import Links from './components/Links'
@@ -16,6 +17,7 @@ class App extends Component {
     return (
       <div className="app" id="page-wrap">
         <header className="header">
+          <Stats />
           <canvas id="canvas"></canvas>
           <div className="container">
             <div className="content">
