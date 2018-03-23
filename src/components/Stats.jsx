@@ -14,7 +14,7 @@ class Stats extends Component {
   }
 
   componentWillMount() {
-    fetch("http://explorer.havenprotocol.com/api/networkinfo").then(res => {
+    fetch("https://explorer.havenprotocol.com/api/networkinfo").then(res => {
       return res.json()
     }).then(res => {
       console.log(res.data);
