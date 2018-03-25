@@ -9,7 +9,9 @@ class Stats extends Component {
     this.state = {
       hashrate: "",
       difficulty: "",
-      height: ""
+      height: "",
+      xhvBTC: "",
+      btcUSD: ""
     }
   }
 
@@ -17,12 +19,23 @@ class Stats extends Component {
     fetch("https://explorer.havenprotocol.com/api/networkinfo").then(res => {
       return res.json()
     }).then(res => {
-      console.log(res.data);
       this.setState({
         hashrate: res.data.hash_rate,
         difficulty: res.data.difficulty,
         height: res.data.height
       })
+    })
+
+    fetch("https://tradeogre.com/api/v1/ticker/BTC-XHV").then(res => {
+      return res.json()
+    }).then(res => {
+      this.setState({xhvBTC: res.price,})
+    })
+
+    fetch("https://blockchain.info/ticker").then(res => {
+      return res.json()
+    }).then(res => {
+      this.setState({btcUSD: res.USD.last,})
     })
   }
 
@@ -38,18 +51,23 @@ class Stats extends Component {
     }
   }
 
+  priceFormat() {
+    return `${this.state.xhvBTC} BTC / $${(this.state.btcUSD * this.state.xhvBTC).toFixed(2)} USD`
+  }
+
   render() {
+    console.log(this.state.btcUSD);
     return (
       // <div className="social-links">
         <div className="stats">
+          <a className="item" href="https://tradeogre.com/exchange/BTC-XHV" target="_blank">
+            Price: {this.priceFormat()}
+          </a>
           <div className="item">
             Height: {this.state.height}
           </div>
           <div className="item">
             Network Hashrate: {this.toMH(this.state.hashrate)} MH/sec
-          </div>
-          <div className="item">
-            Network Difficulty: {this.toMillion(this.state.difficulty)} M
           </div>
         </div>
       // </div>

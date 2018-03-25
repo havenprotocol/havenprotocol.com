@@ -62,3 +62,9 @@
 .bm-overlay {
   background: rgba(0, 0, 0, 0.8);
 }
+
+@media only screen and (max-width: 800px) {
+  .bm-burger-button {
+    top: 50px;
+  }
+}

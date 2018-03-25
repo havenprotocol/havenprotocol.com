@@ -14,6 +14,14 @@
   font-size: 14px;
 }
 
+a.item {
+  text-decoration: none;
+}
+a.item:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
 /* .stats .item svg {
   font-size: 70px;
   color: #fff;

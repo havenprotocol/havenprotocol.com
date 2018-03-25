@@ -16,8 +16,7 @@ class Mining extends Component {
         </div>
         <div className="category">
           <p className="heading">Exchanges</p>
-          <p>Coming Soon!</p>
-          <p></p>
+          <a target="_blank" href="https://tradeogre.com/exchange/BTC-XHV">TradeOgre</a>
         </div>
         <div className="category">
           <p className="heading">Other</p>
