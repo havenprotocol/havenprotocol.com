@@ -11,6 +11,7 @@ class Mining extends Component {
           <a target="_blank" href="http://cryptoknight.cc/haven/">cryptoknight.cc</a>
           <a target="_blank" href="http://pool.mineallcrypto.com/pool/?symbol=XHV">mineAllCrypto.com</a>
           <a target="_blank" href="https://xhv.luckypool.io/">luckypool.io</a>
+          <a target="_blank" href="http://haven.1314pool.com/">1314pool.com</a>
           <a target="_blank" href="https://haven.miner.rocks/">haven.miner.rocks</a>
           <a target="_blank" href="https://monerise.com/?pool=haven">monerise.com</a>
         </div>
