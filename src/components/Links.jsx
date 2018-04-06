@@ -13,7 +13,7 @@ class Mining extends Component {
           <a target="_blank" href="https://xhv.luckypool.io/">luckypool.io</a>
           <a target="_blank" href="http://haven.1314pool.com/">1314pool.com</a>
           <a target="_blank" href="https://haven.miner.rocks/">haven.miner.rocks</a>
-          <a target="_blank" href="https://monerise.com/?pool=haven">monerise.com</a>
+          <a target="_blank" href="http://xhv.newpool.pw/">xhv.newpool.pw</a>
         </div>
         <div className="category">
           <p className="heading">Exchanges</p>
@@ -21,7 +21,7 @@ class Mining extends Component {
         </div>
         <div className="category">
           <p className="heading">Other</p>
-          <a target="_blank" href="http://explorer.havenprotocol.com/">Block Explorer</a>
+          <a target="_blank" href="https://explorer.havenprotocol.com/">Block Explorer</a>
           <a target="_blank" href="https://bitcointalk.org/index.php?topic=2989487">Bitcointalk Post</a>
         </div>
       </div>
