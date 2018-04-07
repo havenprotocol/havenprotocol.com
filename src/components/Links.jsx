@@ -13,6 +13,7 @@ class Mining extends Component {
           <a target="_blank" href="https://xhv.luckypool.io/">luckypool.io</a>
           <a target="_blank" href="http://haven.1314pool.com/">1314pool.com</a>
           <a target="_blank" href="https://haven.miner.rocks/">haven.miner.rocks</a>
+          <a target="_blank" href="http://www.gemtank.ca/">gemtank.ca</a>
           <a target="_blank" href="http://xhv.newpool.pw/">xhv.newpool.pw</a>
         </div>
         <div className="category">
