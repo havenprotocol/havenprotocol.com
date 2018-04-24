@@ -8,12 +8,6 @@ class Wallet extends Component {
       <div className="wallet">
         <div className="wallet-row">
           <div className="item">
-            <i className="fa fa-wifi"></i>
-            <a href="https://havenwallet.com" target="_blank" className="item">
-                <div>Use Online Wallet</div>
-            </a>
-          </div>
-          <div className="item">
             <i className="fab fa-windows"></i>
             <a href="https://github.com/havenprotocol/haven/releases/download/2.0.0/haven-gui-windows-2.0.0.zip">
                 <div>Download Windows GUI + CLI</div>
