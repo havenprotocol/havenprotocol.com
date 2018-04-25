@@ -9,7 +9,7 @@ class Wallet extends Component {
         <div className="wallet-row">
           <div className="item">
             <i className="fab fa-windows"></i>
-            <a href="https://github.com/havenprotocol/haven/releases/download/2.0.0/haven-gui-windows-2.0.0.zip">
+            <a href="https://github.com/havenprotocol/haven/releases/download/2.0.0/haven-gui-windows-2.1.0.zip">
                 <div>Download Windows GUI + CLI</div>
             </a>
           </div>
