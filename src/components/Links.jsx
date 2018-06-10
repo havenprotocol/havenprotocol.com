@@ -20,7 +20,8 @@ class Mining extends Component {
           <p className="heading">Exchanges</p>
           <a target="_blank" href="https://tradeogre.com/exchange/BTC-XHV">TradeOgre</a>
           <a target="_blank" href="https://nanex.co/exchange/XHVNANO">Nanex</a>
-	  <a target="_blank" href="https://altex.exchange/markets&pair=BTC_XHV">Altex</a>
+          <a target="_blank" href="https://www.southxchange.com/Market/Book/XHV/BTC">southxchange</a>
+          <a target="_blank" href="https://altex.exchange/markets&pair=BTC_XHV">Altex</a>
           <a target="_blank" href="https://palitanx.com/exchange/BTC-XHV">Palitanx</a>
         </div>
         <div className="category">
