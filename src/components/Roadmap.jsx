@@ -38,9 +38,10 @@ class Roadmap extends Component {
             iconStyle={{ background: '#ccc', color: '#fff' }}
             icon={<CheckCircleIcon />}
           >
-          <h4 className="vertical-timeline-element-title">I2P Integration</h4>
+          <h4 className="vertical-timeline-element-title">Offshore Storage Testnet</h4>
           <p>
-            I2P integration to further anonymize the network by removing IP addresses associated with transactions.
+            First look at Haven Protocol's Offshore Storage, Testing and feedback from the community will help the team
+            fine tune the build for the Q4 release.
           </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -49,9 +50,9 @@ class Roadmap extends Component {
             iconStyle={{ background: '#ccc', color: '#fff' }}
             icon={<CheckCircleIcon />}
           >
-          <h4 className="vertical-timeline-element-title">Haven Offshore Storage Smart Contract</h4>
+          <h4 className="vertical-timeline-element-title">Haven Offshore Storage Mainnet Release</h4>
           <p>
-            Implementation of the Haven Protocol Offshore Storage smart contract that allows users to store their
+            Implementation of the Haven Protocol Offshore Storage system that allows users to store their
             coins in terms of USD value to avoid volatility and keep money out of the traditional banking system without risk of loss.
           </p>
           </VerticalTimelineElement>
