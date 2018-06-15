@@ -38,30 +38,36 @@ class App extends Component {
           <section>
             <div className="introduction" name="introduction">
               <div className="content-text">
-                <p className="heading">What is Haven Protocol</p>
+                <p className="heading">What is Haven Protocol?</p>
 
-                <p>Haven is an untraceable cryptocurrency with a mix of standard market pricing and stable fiat
-                value storage without an unsustainable peg or asset backing. It achieves this with a built in
-                on-chain smart contract that controls the minting and burning of coins in a network of cryptographically unknown supply
-                to facilitate value for users that choose to send their coins to offshore storage contracts while allowing everyone
-                else to be exposed to the natural price movements of the currency.</p>
+                <p>Haven is an untraceable cryptocurrency with a mix of standard market pricing and stable fiat value storage without an unsustainable peg or asset backing.
+                It achieves this with a dual coin blockchain. Users can can mint and burn Haven [XHV] for the equivalent USD value worth of Haven Dollars [XHVD].</p>
+
+                <p>Haven Protocol’s cryptographically unknown supply is used to facilitate the fluctuations in the total supply when users burn Haven [XHV]
+                to create the stable value Haven Dollars [XHVD] while allowing Haven [XHV] to be exposed to the natural price movements of the market.</p>
 
 
-                <p className="heading">Offshore Storage</p>
+                <p className="heading">Offshore Storage:</p>
 
-                <p>Offshore Storage is Haven's built in smart contract/protocol that powers the stable value storage.
-                In short, sending Haven to offshore storage (burning) records a reference on the blockchain to the current fiat value
-                which can be restored later back into Haven by minting new coins to the tune of the current fiat value.</p>
+                <p>Offshore Storage is Haven Protocol’s core concept that powers the minting and burning of Haven [XHV] for Haven Dollars [XHVD] and visa versa.
+                In short, sending Haven [XHV] to offshore storage (burning), mints the equivalent USD value worth of the burnt Haven [XHV] in Haven Dollars [XHVD].</p>
+
+                <p>Each Haven Dollar [XHVD] is a representation of $1USD ‘worth of Haven’ which can be transferred to other Haven wallets.
+                Users can also burn their Haven Dollars [XHVD] to mint back the amount of Haven [XHV] of equivalent value.</p>
+
+                <p>When a user burns Haven and mints it back at a later date, they will net a different amount of Haven [XHV] if the price of Haven has changed.
+                If Haven’s [XHV] price increases, they will net less Haven [XHV]. If the price increases, they will net more Haven [XHV].
+                In both cases they will have the same about of USD worth of Haven.</p>
 
                 <p>The key use cases for offshore contracts are:</p>
 
-                <p>Point of sales/payment gateway systems where goods can be bought with Haven and stores can immediately lock the fiat value in
+                <p>Point of sales/payment gateway systems where goods can be bought with Haven and stores can immediately lock the USD/fiat value in
                 to protect from price fluctuations. This has the added benefit of keeping the stores business and income completely
                 hidden on the blockchain as neither their wallet address or amounts are revealed.</p>
 
                 <p>Storing large amount of money outside of the traditional banking system. Privacy focused cryptos are perfect for this but
                 without a reliable way to maintain value through fluctuations the process of holding could be costly. Sending Haven offshore
-                quite literally, makes money disappear until you want it back at which point the value remains intact.</p>
+                quite literally, creates cryptographically untraceable US Dollars. </p>
 
 
                 <p className="heading">Untraceable | Hidden | Decentralized</p>
