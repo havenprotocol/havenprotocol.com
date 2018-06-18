@@ -41,10 +41,10 @@ class App extends Component {
                 <p className="heading">What is Haven Protocol?</p>
 
                 <p>Haven is an untraceable cryptocurrency with a mix of standard market pricing and stable fiat value storage without an unsustainable peg or asset backing.
-                It achieves this with a dual coin blockchain. Users can can mint and burn Haven [XHV] for the equivalent USD value worth of Haven Dollars [XHVD].</p>
+                It achieves this with a dual coin blockchain. Users can mint and burn Haven [XHV] for the equivalent USD value worth of Haven Dollars [XHVD].</p>
 
                 <p>Haven Protocol’s cryptographically unknown supply is used to facilitate the fluctuations in the total supply when users burn Haven [XHV]
-                to create the stable value Haven Dollars [XHVD] while allowing Haven [XHV] to be exposed to the natural price movements of the market.</p>
+                to create the stable value Haven Dollars [XHVD], while allowing Haven [XHV] to be exposed to the natural price movements of the market.</p>
 
 
                 <p className="heading">Offshore Storage:</p>
@@ -56,13 +56,13 @@ class App extends Component {
                 Users can also burn their Haven Dollars [XHVD] to mint back the amount of Haven [XHV] of equivalent value.</p>
 
                 <p>When a user burns Haven and mints it back at a later date, they will net a different amount of Haven [XHV] if the price of Haven has changed.
-                If Haven’s [XHV] price increases, they will net less Haven [XHV]. If the price increases, they will net more Haven [XHV].
-                In both cases they will have the same about of USD worth of Haven.</p>
+                If Haven’s [XHV] price increases, they will net less Haven [XHV]. If the price decreases, they will net more Haven [XHV].
+                In both cases they will have the same amount of USD worth of Haven.</p>
 
-                <p>The key use cases for offshore contracts are:</p>
+                <p>The key use cases for offshore storage are:</p>
 
                 <p>Point of sales/payment gateway systems where goods can be bought with Haven and stores can immediately lock the USD/fiat value in
-                to protect from price fluctuations. This has the added benefit of keeping the stores business and income completely
+                to protect from price fluctuations. This has the added benefit of keeping the stores' business and income completely
                 hidden on the blockchain as neither their wallet address or amounts are revealed.</p>
 
                 <p>Storing large amount of money outside of the traditional banking system. Privacy focused cryptos are perfect for this but
