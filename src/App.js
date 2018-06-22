@@ -8,7 +8,9 @@ import Roadmap from './components/Roadmap'
 import Wallet from './components/Wallet'
 import Links from './components/Links'
 import Social from './components/Social'
-import whitepaper from './Haven_Whitepaper_v3.0.0.pdf'
+
+import whitepaper from './haven_protocol_whitepaper_v3.0.0.pdf'
+
 
 
 class App extends Component {
