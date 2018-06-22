@@ -8,7 +8,9 @@ import Roadmap from './components/Roadmap'
 import Wallet from './components/Wallet'
 import Links from './components/Links'
 import Social from './components/Social'
+
 import whitepaper from './haven_protocol_whitepaper_v3.0.0.pdf'
+
 
 
 class App extends Component {
@@ -28,7 +30,7 @@ class App extends Component {
                 <div className="subtitle">Untraceable payments meets offshore banking.</div>
 
                 <div className="whitepaper-link">
-                  <a href={whitepaper} target="_blank">Read the white paper</a>
+                  <a href={whitepaper} target="_blank">Read the white paper <i class="fas fa-newspaper"></i> </a>
                 </div>
               </div>
             </div>
@@ -40,8 +42,9 @@ class App extends Component {
               <div className="content-text">
                 <p className="heading">What is Haven Protocol?</p>
 
-                <p>Haven is an untraceable cryptocurrency with a mix of standard market pricing and stable fiat value storage without an unsustainable peg or asset backing.
-                It achieves this with a dual coin blockchain. Users can mint and burn Haven [XHV] for the equivalent USD value worth of Haven Dollars [XHVD].</p>
+                <p>Haven is an untraceable cryptocurrency with a mix of standard market pricing and stable fiat value storage. This is achieved without an
+                unsustainable peg or asset backing. It achieves this with a dual coin blockchain.
+                Users can mint and burn Haven [XHV] for the equivalent USD value worth of Haven Dollars [XHVD].</p>
 
                 <p>Haven Protocol’s cryptographically unknown supply is used to facilitate the fluctuations in the total supply when users burn Haven [XHV]
                 to create the stable value Haven Dollars [XHVD], while allowing Haven [XHV] to be exposed to the natural price movements of the market.</p>
@@ -49,10 +52,10 @@ class App extends Component {
 
                 <p className="heading">Offshore Storage:</p>
 
-                <p>Offshore Storage is Haven Protocol’s core concept that powers the minting and burning of Haven [XHV] for Haven Dollars [XHVD] and visa versa.
+                <p>Offshore Storage is Haven Protocol’s core concept that powers the minting and burning of Haven [XHV] for Haven Dollars [XHVD] and vice versa.
                 In short, sending Haven [XHV] to offshore storage (burning), mints the equivalent USD value worth of the burnt Haven [XHV] in Haven Dollars [XHVD].</p>
 
-                <p>Each Haven Dollar [XHVD] is a representation of $1USD ‘worth of Haven’ which can be transferred to other Haven wallets.
+                <p>Each Haven Dollar [XHVD] is a representation of $1 USD ‘worth of Haven’ which can be transferred to other Haven wallets.
                 Users can also burn their Haven Dollars [XHVD] to mint back the amount of Haven [XHV] of equivalent value.</p>
 
                 <p>When a user burns Haven and mints it back at a later date, they will net a different amount of Haven [XHV] if the price of Haven has changed.
@@ -67,7 +70,7 @@ class App extends Component {
 
                 <p>Storing large amount of money outside of the traditional banking system. Privacy focused cryptos are perfect for this but
                 without a reliable way to maintain value through fluctuations the process of holding could be costly. Sending Haven offshore
-                quite literally, creates cryptographically untraceable US Dollars. </p>
+                quite literally creates cryptographically untraceable US Dollars. </p>
 
 
                 <p className="heading">Untraceable | Hidden | Decentralized</p>

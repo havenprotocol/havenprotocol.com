@@ -11,6 +11,9 @@ class Support extends Component {
             <a href="https://discord.gg/vWQ2GZX" target="_blank"><i className="fab fa-discord" aria-hidden="true"></i></a>
           </div>
           <div className="item">
+            <a href="http://t.me/Haven_Protocol" target="_blank"><i className="fab fa-telegram" aria-hidden="true"></i></a>
+          </div>
+          <div className="item">
             <a href="https://twitter.com/HavenProtocol" target="_blank"><i className="fab fa-twitter" aria-hidden="true"></i></a>
           </div>
           <div className="item">
