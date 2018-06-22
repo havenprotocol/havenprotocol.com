@@ -67,7 +67,7 @@ class Stats extends Component {
             Height: {this.state.height}
           </div>
           <div className="item">
-            Network Hashrate: {this.toMH(this.state.hashrate)} MH/sec
+            Network Hashrate: {this.toMH(this.state.hashrate)} MH/s
           </div>
         </div>
       // </div>
