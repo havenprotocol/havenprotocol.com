@@ -15,6 +15,7 @@ class Mining extends Component {
           <a target="_blank" href="https://haven.miner.rocks/">haven.miner.rocks</a>
           <a target="_blank" href="https://xhv.dark-mine.su/">xhv.dark-mine.su</a>
           <a target="_blank" href="https://haven.herominers.com/">herominers.com</a>
+          <a target="_blank" href="http://pool.haven.frackingminer.com/">pool.haven.frackingminer.com</a>
         </div>
         <div className="category">
           <p className="heading">Exchanges</p>
