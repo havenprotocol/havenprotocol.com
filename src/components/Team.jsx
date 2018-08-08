@@ -112,18 +112,6 @@ class Team extends Component {
 
           <div className="item">
             <div className="icon">
-              <a href="https://twitter.com/Cryptonoobie">
-              <img src={catoshi} /></a>
-              <a href="https://twitter.com/Cryptonoobie" target="_blank"><i className="fab fa-twitter" aria-hidden="true" style={{paddingTop: '5px'}}></i></a>
-            </div>
-            <a href="https://twitter.com/Cryptonoobie">
-                <div>Catoshi</div>
-                <div>Community Leader.</div>
-            </a>
-          </div>
-
-          <div className="item">
-            <div className="icon">
               <img src={havendev} />
             </div>
             <a href="">
