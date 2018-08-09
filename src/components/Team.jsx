@@ -48,7 +48,7 @@ class Team extends Component {
               <br></br>
               <br></br>
               Left employment to work full time on Haven post network launch. Born and raised in Auckland, New Zealand.
-              Has been involved in cryptocurrencies since late 2014 and has worked on a handful of crypto projects in the past, but nothing of serious significance.
+              Has been involved in cryptocurrencies since late 2014 and has worked on a handful of crypto projects in the past.
               His only focus now is on Haven and Offshore Storage and is by far the main contributor to the project.
             </div>
           </div>
