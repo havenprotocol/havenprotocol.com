@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import './App.css';
 import Nav from './Nav'
 import logo from './haven_icon_only.png'
+// import donjor from './donjor.png'
 import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Stats from './components/Stats'
 import Roadmap from './components/Roadmap'
 import Wallet from './components/Wallet'
 import Links from './components/Links'
 import Social from './components/Social'
+import Team from './components/Team'
 
 import whitepaper from './haven_protocol_whitepaper_v3.0.0.pdf'
 
@@ -65,7 +67,7 @@ class App extends Component {
                 <p>The key use cases for offshore storage are:</p>
 
                 <p>Point of sales/payment gateway systems where goods can be bought with Haven and stores can immediately lock the USD/fiat value in
-                to protect from price fluctuations. This has the added benefit of keeping the stores' business and income completely
+                to protect from price fluctuations. This has the added benefit of keeping the stores'' business and income completely
                 hidden on the blockchain as neither their wallet address or amounts are revealed.</p>
 
                 <p>Storing large amount of money outside of the traditional banking system. Privacy focused cryptos are perfect for this but
@@ -92,6 +94,12 @@ class App extends Component {
           </div>
           <section name="roadmap">
             <Roadmap />
+          </section>
+          <div style={{color: "#fff", padding: "60px 20px 0px"}}>
+            <p className="heading">Haven Protocol Team</p>
+          </div>
+          <section name="team">
+            <Team />
           </section>
           <section name="links">
             <Links />

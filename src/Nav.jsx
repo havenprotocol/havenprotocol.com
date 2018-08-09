@@ -33,6 +33,7 @@ class Nav extends Component {
         <Link onClick={() => this.closeMenu()} to="introduction" smooth={true}>Features</Link>
         <Link onClick={() => this.closeMenu()} to="downloads" smooth={true}>Downloads</Link>
         <Link onClick={() => this.closeMenu()} to="roadmap" smooth={true}>Roadmap</Link>
+        <Link onClick={() => this.closeMenu()} to="team" smooth={true}>Team</Link>
         <Link onClick={() => this.closeMenu()} to="links" smooth={true}>Links</Link>
       </Menu>
     )

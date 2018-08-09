@@ -1,0 +1,85 @@
+
+.team {
+  width: 100%;
+  border: 3px solid rgba(255,255,255, 0.1);
+  border-radius: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.team-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  color: #fff;
+  /* box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 1); */
+}
+
+.team-row .item .icon {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(255,255,255,0.7);
+  border-radius: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.team-row .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(255,255,255,0.7);
+  border-radius: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.team-row a {
+  text-decoration: none;
+  color: inherit;
+  padding-top: 7px;
+}
+
+.team-row a:hover {
+  text-decoration: underline;
+}
+
+.team-row svg {
+  font-size: 30px;
+  padding-bottom: 5px;
+  color: #fff;
+
+
+}
+
+.team-row .download:hover {
+  background-color: #204a5a;
+}
+
+.team-row .disabled {
+ opacity: 0.4;
+}
+
+.team-row .item img {
+  border-radius: 50%;
+  max-width: 100px;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .team {
+    padding-top: 40px;
+  }
+  .team-row {
+    flex-direction: column;
+  }
+  .team-row .item {
+    margin-bottom: 30px;
+  }
+}
