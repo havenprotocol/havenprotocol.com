@@ -15,16 +15,16 @@ class Team extends Component {
       <div className="team">
         <div className="team-row">
           <div className="item">
-              The Haven Protocol Team is anonyomus, and takes anonymity seriously.
+              The Haven Protocol Team is anonymous and takes anonymity seriously.
           </div>
         </div>
           <div className="team-row">
             <div className="item">
-              This is because the privacy coin community naturally highly values the anonymity of individuals. As a community based project, with no ICO, the lack of corporatisation is key.
-              Anyone can contribute to the open source project and is highly encouraged to do so.
-              It is very important to stay anonymous when contributing to the development of a privacy coin.
-              Publically known team members of very popular and predominate privacy coins have been held up in airports for being associated with their respective projects.
-              By the very nature of Haven Protocol, it's important that the team take precautions that limit the impact anti privacy coin legislation could have on the ongoing development.
+              This is because the privacy coin community naturally highly values the anonymity of individuals and entities. As a community-based project, with no ICO, the lack of corporatisation is key.
+              Anyone anywhere in the world can contribute to thus open source project and is highly encouraged to do so.
+              It is paramount to stay anonymous when contributing to the development of a privacy coin.
+              Publicly known team members of other popular and predominate privacy coins have been held up in airports and other federally regulated locations for being associated with their respective projects.
+              By the very nature of Haven Protocol, it is critically important that the team takes precautions that limit the impact that anti-privacy coin legislation could have on the ongoing development.
             </div>
           </div>
 
@@ -43,13 +43,13 @@ class Team extends Component {
             </a>
             <br></br>
             <div>
-              Known only as Haven Dev in the community, he theriorsed the original concept for Haven Protocol’s Offshore Storage stable coin system.
-              Worked corporate in c++ and backend web dev positions for many years. C, C++, JS, Ruby and standard devops and server management primarily.
+              Known in the community only as "Haven Dev", Haven Dev theorised the original concept for Haven Protocol’s Offshore Storage stable coin system.
+              Haven Dev previously worked corporate in C++ and backend web dev positions for many years. With a primary focus on C, C++, JS, Ruby and standard devops and server management.
               <br></br>
               <br></br>
-              Left employment to work full time on Haven post network launch. Born and raised in Auckland, New Zealand.
-              Has been involved in cryptocurrencies since late 2014 and has worked on a handful of crypto projects in the past.
-              His only focus now is on Haven and Offshore Storage and is by far the main contributor to the project.
+              Haven Dev left employment to work full time on Haven Protocol after its network launch. Born and raised in Auckland, New Zealand, Haven Dev
+              has been involved in cryptocurrencies since late 2014 and has worked on a handful of crypto projects in the past.
+              His only focus now is on Haven Protocol and Offshore Storage and is by far the main contributor to the project.
             </div>
           </div>
           <div className="item">
@@ -65,12 +65,14 @@ class Team extends Component {
             </a>
             <br></br>
             <div>
-              Born and raised in Auckland, New Zealand. Employed at small New Zealand Software companies. Mainly working in SQL, .NET/C# with some knowledge in blockchain development
-              prior to Haven Protocol.
+              Known in the community only as “Donjor”, Donjor was born and raised in Auckland, New Zealand.
+              Donjor was previously employed at small New Zealand software companies and mainly worked in SQL and .NET/C# with some knowledge in blockchain development
+              prior to working full time on  Haven Protocol.
               <br></br>
               <br></br>
-              Worked with Haven Dev pre network launch and discussed the Offshore Storage concept. Left employment a few months after network launch to focus full time on Haven.
-              Donjor uses his background experience in management and technical support roles to be the main voice publically for the project and allows Haven Dev to focus on the core development.
+              Donjor was involved in the Haven Protocol development before the network launch and was also a part of theorising the Offshore Storage concept.
+              Donjor left employment a few months after Haven Protocol's network launch to focus full time on the project.
+              Donjor uses his background experience in management and technical support roles to be the main voice publicly for the project and allows Haven Dev to focus on the core development.
             </div>
           </div>
         </div>
