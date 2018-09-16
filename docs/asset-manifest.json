@@ -1,12 +1,14 @@
 {
   "main.css": "static/css/main.e33e08a8.css",
   "main.css.map": "static/css/main.e33e08a8.css.map",
-  "main.js": "static/js/main.5873444c.js",
-  "main.js.map": "static/js/main.5873444c.js.map",
+  "main.js": "static/js/main.ae53ba31.js",
+  "main.js.map": "static/js/main.ae53ba31.js.map",
   "static/media/catoshi.png": "static/media/catoshi.1e03e81b.png",
+  "static/media/cryptograde.png": "static/media/cryptograde.e92ffd96.png",
   "static/media/donjor.png": "static/media/donjor.97f4203d.png",
   "static/media/gigabyted.png": "static/media/gigabyted.fe6256dc.png",
   "static/media/haven_protocol_whitepaper_v3.0.0.pdf": "static/media/haven_protocol_whitepaper_v3.0.0.cb09c183.pdf",
+  "static/media/jriggs.png": "static/media/jriggs.24b5619a.png",
   "static/media/shiggidy.png": "static/media/shiggidy.1eabde10.png",
   "static/media/taiwanesepanda.png": "static/media/taiwanesepanda.5c2293fd.png"
 }

@@ -24,18 +24,18 @@ class Roadmap extends Component {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Q2 2018"
-            iconStyle={{ background: '#ccc', color: '#fff' }}
+            iconStyle={{ background: '#0F232B', color: '#fff' }}
             icon={<CheckCircleIcon />}
           >
-          <h4 className="vertical-timeline-element-title">IOS + Android Wallets</h4>
+          <h4 className="vertical-timeline-element-title">Android Wallet</h4>
           <p>
-            IOS and Android mobile wallets available for download with a focus on usability for first time users of cryptocurrency.
+            Android mobile wallet available for download with a focus on usability for first time users of cryptocurrency.
           </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Q3 2018"
-            iconStyle={{ background: '#ccc', color: '#fff' }}
+            iconStyle={{ background: '#0F232B', color: '#fff' }}
             icon={<CheckCircleIcon />}
           >
           <h4 className="vertical-timeline-element-title">Offshore Storage Testnet</h4>

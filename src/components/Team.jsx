@@ -3,6 +3,9 @@ import './Team.css'
 import donjor from './donjor.png'
 import havendev from './havendev.png'
 import cryptomach from './cryptomach.png'
+import jriggs from './jriggs.png'
+import florent from './florent.jpeg'
+import cryptograde from './cryptograde.png'
 import gigabyted from './gigabyted.png'
 import catoshi from './catoshi.png'
 import shiggidy from './shiggidy.png'
@@ -81,7 +84,7 @@ class Team extends Component {
 
           <div className="item">
             <div className="icon">
-              <img src={havendev} />
+              <img src={cryptograde} />
             </div>
             <a href="">
                 <div>Crypto Grade</div>
@@ -114,7 +117,7 @@ class Team extends Component {
 
           <div className="item">
             <div className="icon">
-              <img src={havendev} />
+              <img src={jriggs} />
             </div>
             <a href="">
                 <div>Jriggs28</div>
@@ -150,9 +153,17 @@ class Team extends Component {
           </a>
         </div>
 
-
-
-
+        <div className="item">
+          <div className="icon">
+            <a href="https://www.linkedin.com/in/zaher-elsahili-57840227/">
+            <img src={florent} /></a>
+            <a href="https://www.linkedin.com/in/zaher-elsahili-57840227/" target="_blank"><i className="fab fa-linkedin" aria-hidden="true" style={{paddingTop: '5px'}}></i></a>
+          </div>
+          <a href="https://www.linkedin.com/in/zaher-elsahili-57840227/">
+              <div>Florent</div>
+              <div>Adviser</div>
+          </a>
+        </div>
 
       </div>
 
