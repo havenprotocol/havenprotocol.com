@@ -160,7 +160,7 @@ class Team extends Component {
             <a href="https://www.linkedin.com/in/zaher-elsahili-57840227/" target="_blank"><i className="fab fa-linkedin" aria-hidden="true" style={{paddingTop: '5px'}}></i></a>
           </div>
           <a href="https://www.linkedin.com/in/zaher-elsahili-57840227/">
-              <div>Florent</div>
+              <div>Zaher</div>
               <div>Adviser</div>
           </a>
         </div>
