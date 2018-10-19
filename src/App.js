@@ -12,6 +12,7 @@ import Social from './components/Social'
 import Team from './components/Team'
 
 import whitepaper from './haven_protocol_whitepaper_v3.0.0.pdf'
+import iospolicy from './Haven_Protocol_iOS_Wallet_Privacy_Policy.pdf'
 
 
 
